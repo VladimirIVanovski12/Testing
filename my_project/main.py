@@ -28,6 +28,7 @@ try:
     #hello
     #Added
     #hlelo world
+    #dsa
     # Click the first result link
     first_result = driver.find_element("xpath", '(//h3)[1]')
     first_result.click()
