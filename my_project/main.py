@@ -26,6 +26,7 @@ try:
     search_box.send_keys('Selenium Grid with Docker')
     search_box.send_keys(Keys.RETURN)
     #hello
+    #Added
     # Click the first result link
     first_result = driver.find_element("xpath", '(//h3)[1]')
     first_result.click()
